@@ -177,7 +177,7 @@ export default function Example() {
                 <li>Provided a summary of the dataset using <code>df.info()</code>.</li>
                 <li>Checked for missing values with <code>df.isnull().sum()</code>.</li>
                 <li>Summarized data with <code>df.describe()</code>.</li>
-                <li>Overview of categorical columns with <code>df.describe(include='O')</code>.</li>
+                <li>Overview of categorical columns with <code>df.describe(include=O)</code>.</li>
                 <li>Visualized distributions of numerical features using histograms.</li>
                 <li>Created a correlation heatmap to identify relationships between variables.</li>
                 <li>Removed outliers using Interquartile Range (IQR) method.</li>
